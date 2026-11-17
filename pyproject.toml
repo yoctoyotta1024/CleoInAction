@@ -69,7 +69,7 @@ build-backend = "hatchling.build"
 source = "uv-dynamic-versioning"
 
 [tool.uv-dynamic-versioning]
-fallback-version = "0.0.0"
+fallback-version = "0.2.0"
 
 [tool.uv.workspace]
 members = [
