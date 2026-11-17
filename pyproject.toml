@@ -1,0 +1,77 @@
+[project]
+name = "cleoinaction"
+description = "A basic example repository for building and using Cleo externally"
+dynamic = ["version"]
+authors = [
+    { name = "Clara Bayley", email = "yoctoyotta1024@yahoo.com" },
+]
+readme = "README.md"
+repository = "https://github.com/yoctoyotta1024/CleoInAction"
+license = "BSD-3-Clause"
+license-files = ["LICENSE.md"]
+requires-python = ">=3.13"
+
+dependencies = [
+  "awkward",
+  "cleopy",
+  "dask",
+  "numpy",
+  "matplotlib",
+  "mpi4py",
+  "openmpi",
+  "ruamel.yaml",
+	"scipy",
+  "xarray",
+  "zarr",
+]
+
+[dependency-groups]
+dev = [
+  {include-group = "pre-commit"},
+  {include-group = "test"},
+  {include-group = "docs"},
+]
+pre-commit = [
+    "pre-commit",
+]
+test = [
+    "pytest",
+]
+docs = [
+    "breathe",
+    "furo",
+    "sphinx",
+    "sphinx-design",
+    "sphinx_copybutton",
+    "sphinxcontrib-applehelp",
+    "sphinxcontrib-bibtex",
+    "sphinxcontrib-htmlhelp",
+]
+
+[project.urls]
+Homepage = "https://github.com/yoctoyotta1024/CleoInAction"
+Website = "https://yoctoyotta1024.github.io/CleoInAction"
+Issues = "https://github.com/yoctoyotta1024/CleoInAction/issues"
+
+[project.scripts]
+cleoinaction = "cleoinaction:main"
+
+[tool.pytest.ini_options]
+pythonpath=[
+  ".", "cleo-in-action"
+]
+
+[build-system]
+requires=["hatchling >= 1.26", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv-dynamic-versioning]
+fallback-version = "0.0.0"
+
+[tool.uv.workspace]
+members = [
+    "cleo-in-action",
+]
