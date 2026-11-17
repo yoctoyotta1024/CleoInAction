@@ -28,5 +28,3 @@ Thank you and good luck!
 
 ## Contributors
 - Clara Bayley
-- Sylwester Arabas
-- Emma Ware

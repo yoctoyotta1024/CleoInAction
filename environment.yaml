@@ -1,0 +1,6 @@
+name: cleo-in-action
+channels:
+    - conda-forge
+dependencies:
+    - doxygen>=1.10.0
+    - uv
