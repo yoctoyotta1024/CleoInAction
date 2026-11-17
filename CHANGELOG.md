@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.0](https://github.com/yoctoyotta1024/CleoInAction/compare/2d39936eb1e432526b410d5dda8e24c032eb7936..v0.2.0) - 2026-11-17
+#### Documentation
+- update reqiurements for cleo - ([7ad087d](https://github.com/yoctoyotta1024/CleoInAction/commit/7ad087d752a9ad6c41234f889d95eb1becef64f2)) - clara.bayley
+- move pybind notice to admonition under python - ([d6d5ac9](https://github.com/yoctoyotta1024/CleoInAction/commit/d6d5ac983fed70a57d580c7d2e0da3e7edfee26d)) - clara.bayley
+- update readme - ([2d39936](https://github.com/yoctoyotta1024/CleoInAction/commit/2d39936eb1e432526b410d5dda8e24c032eb7936)) - clara.bayley
+#### Features
+- update version - ([3ed347d](https://github.com/yoctoyotta1024/CleoInAction/commit/3ed347d6bf48a8175fed806371a14dde28b01358)) - clara.bayley
+
+- - -
+
 ## [v0.1.0](https://github.com/yoctoyotta1024/CleoInAction/compare/a3948ef44ed7ff998bfc22da4c33318235a86de3..v0.1.0) - 2026-11-17
 #### Features
 - basic features of an external build of Cleo repository - ([a3948ef](https://github.com/yoctoyotta1024/CleoInAction/commit/a3948ef44ed7ff998bfc22da4c33318235a86de3)) - clara.bayley
