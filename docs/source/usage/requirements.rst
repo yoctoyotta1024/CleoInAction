@@ -16,7 +16,7 @@ Compilers
 A C++ compiler with the C++20 standard library and MPI is the absolute minimum.
 
 On Levante you can use the latest MPI compiler wrappers for the gcc compilers.
-At the time of writing this is gcc 11.2.0, e.g.
+At the time of writing this is gcc 11.2.0, e.g. for a CPU build:
 
 .. code-block:: console
 
@@ -28,6 +28,10 @@ CMake minimum version 3.18.0.
 
 On Levante the default version is above 3.26.0 so this should be fine. In case you have trouble,
 you can use spack to find (and load) a higher version yourself (``spack find cmake``).
+
+.. code-block:: console
+
+  $ spack load cmake@3.26.3%gcc@=11.2.0/fuvwuhz
 
 
 YAC
