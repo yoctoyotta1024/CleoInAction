@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.0](https://github.com/yoctoyotta1024/CleoInAction/compare/a3948ef44ed7ff998bfc22da4c33318235a86de3..v0.1.0) - 2026-11-17
+#### Features
+- basic features of an external build of Cleo repository - ([a3948ef](https://github.com/yoctoyotta1024/CleoInAction/commit/a3948ef44ed7ff998bfc22da4c33318235a86de3)) - clara.bayley
+
+- - -
+
 
 - - -
 
